@@ -1,4 +1,4 @@
-import { disallowArrowFunctions } from "./rules/disallow-arrow-functions";
+const { disallowArrowFunctions } = require("./rules/disallow-arrow-functions");
 
 const configuration = {
   rules: {
