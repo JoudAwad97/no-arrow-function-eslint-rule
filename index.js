@@ -6,4 +6,4 @@ const configuration = {
   },
 };
 
-export default configuration;
+module.exports = configuration;
