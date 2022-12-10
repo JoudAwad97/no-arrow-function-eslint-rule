@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-arrow-functions",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "disallow usage of arrow functions in the application using eslint",
   "repository": "https://github.com/JoudAwad97/no-arrow-function-eslint-rule",
   "author": "Joud Awad",
