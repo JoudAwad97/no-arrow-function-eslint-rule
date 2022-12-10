@@ -6,9 +6,6 @@
   "author": "Joud Awad",
   "license": "MIT",
   "main": "index.js",
-  "files": [
-    "dist/**"
-  ],
   "scripts": {
     "deploy": "git add . && git commit -m \"Updates\" && git push origin && npm version patch && npm publish"
   },
