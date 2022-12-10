@@ -1,0 +1,23 @@
+{
+  "name": "no-arrow-functions-eslint-rule",
+  "version": "1.0.0",
+  "description": "disallow usage of arrow functions in the application using eslint",
+  "main": "index.js",
+  "repository": "https://github.com/JoudAwad97/no-arrow-function-eslint-rule",
+  "author": "Joud Awad",
+  "license": "MIT",
+  "engines": {
+    "node": "18.12.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
+  },
+  "dependencies": {
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-plugin-eslint-plugin": "^5.0.6",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}
