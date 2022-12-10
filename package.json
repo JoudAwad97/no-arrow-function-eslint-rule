@@ -10,7 +10,8 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --no-splitting --minify"
+    "build": "tsup src/index.ts --no-splitting --minify",
+    "deploy": "npm publish"
   },
   "engines": {
     "node": "18.12.1"
