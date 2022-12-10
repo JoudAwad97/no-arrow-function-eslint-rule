@@ -1,5 +1,5 @@
 module.exports = {
-  create(context) {
+  create: (context) => {
     return {
       VariableDeclarator(node) {
         if (node.init && node.init.type === "ArrowFunctionExpression") {

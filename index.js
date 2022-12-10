@@ -1,9 +1,7 @@
-const { disallowArrowFunctions } = require("./rules/disallow-arrow-functions");
+const disallowArrowFunctionsRule = require("./rules/disallow-arrow-functions");
 
-const configuration = {
+module.exports = {
   rules: {
-    "disallow-anonymous-function": disallowArrowFunctions,
+    "disallow-anonymous-function": disallowArrowFunctionsRule,
   },
 };
-
-module.exports = configuration;

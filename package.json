@@ -5,7 +5,6 @@
   "repository": "https://github.com/JoudAwad97/no-arrow-function-eslint-rule",
   "author": "Joud Awad",
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "deploy": "git add . && git commit -m \"Updates\" && git push origin && npm version patch && npm publish"
   },
